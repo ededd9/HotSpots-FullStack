@@ -1,0 +1,35 @@
+.generalPost-container {
+  margin-top: 100px;
+  border-radius: 5px;
+  height: 50%;
+  width: 50%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.user-profile-pic {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.userInfo {
+  display: flex;
+  align-items: column;
+  padding: 10px;
+}
+.categories {
+  position: absolute;
+  bottom: 0;
+}
+.categories > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.post-desc {
+  justify-content: center;
+}
